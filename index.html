@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+         <title>Sticky Blickies</title>
+    </head>
+    <style>
+        body {
+            background: rgb(105, 108, 215);
+            color: rgb(43, 43, 43);
+            padding: 10px;
+            font-family: arial;
+        }
+        #all-contents {
+          max-width: 800px;
+            margin: auto;
+        }
+     
+        /* navigation menu */
+        nav {
+            background: rgb(289, 89, 411);
+           margin: 0 auto;
+            display: flex;
+            padding: 10px;
+        }
+        h1 {
+            display: flex;
+            align-items: center;
+            color: white;
+            flex: 1;
+            margin: 0;
+        }
+        #nav-ul {
+            list-style-image: none;
+        }
+        .nav-li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+     
+        /* main container area beneath menu */
+        main {
+            background: rgb(25, 118, 319);
+            display: flex;
+        }
+        .sidebar {
+            margin-right: 25px;
+            padding: 10px;
+        }
+        .sidebar-img {
+            width: 200px;
+        }
+        .content {
+            flex: 1;
+            padding: 15px;
+        }
+        #interests {
+            border: 4px silver ridge;
+            padding: 8px;
+        }
+        h2, h3 {
+            margin: 0px;
+            margin-bottom: 20px;
+        }
+     </style>
+    <body>
+        <div>
+            <nav>
+                <h1>Ariel's Website</h1>
+                <ul id="nav-ul>
+                    <li class="nav-li">
+                      <a href="index.html"> Home </a>
+                    </li>
+                    <li class="nav-li">
+                      <a href="portfolio.html"> Portfolio </a>
+                  </li>
+                </ul>
+            </nav>
+            <main>
+                <!-- Sidebar section -->
+                <div class="sidebar">
+                    <img class="sidebar-img" src="https://miro.medium.com/max/300/0*9U_PkckAUtKGrb_R.png"> 
+                    <h2>Ariel Hill</h2>
+                    <p>Student at Mandeville High
+                        <!-- Interests section -->
+                        <div id="interests">
+                            <h3>Interests
+                                <ul>
+                                    <li>Fighting</li>
+                                    <li>Drawing</li>
+                                    <li>Martial Arts</li>
+                                </ul>
+                            </h3>
+                        </div>
+                    </p>
+                </div>
+                 <!-- Content section -->
+                 <div class="content">
+                    ...
+                </div>
+                
+            </main>
+        </div>
+    </body>
+</html>
