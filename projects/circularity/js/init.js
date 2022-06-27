@@ -33,11 +33,17 @@ var init = function (window) {
         
 
         // TODO 3 / 7 : Call the drawCircle() function 
-        var circle = 0; 
+        var loopCircle = 0; 
+
+        for (var loopCircle = 0; loopCircle < 100; loopCircle++) {
+            drawCircle();
+        }
+
+        
         
             
             // code to repeat using eachValue
-         }
+        
 
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
